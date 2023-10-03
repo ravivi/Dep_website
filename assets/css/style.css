@@ -4648,9 +4648,46 @@ p {
     margin-right: 10px;
 }
 
+
+
+/*-------------------------------------------------------------------------------------
+    School Page
+---------------------------------------------------------------------------------------*/
+.school-area {
+    padding: 50px 50px;
+}
+
+
+.pills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.nav-pills {
+    justify-content: center;
+}
+.nav-pills li a.active {
+    display: block;
+    padding: 10px 5px;
+    /* font-size: 18px; */
+    font-weight: 700;
+}
+
+.nav-pills li a:hover {
+    color: #F3880B;
+}
+.nav-pills .nav-link.active{
+    background-color: #F3880B;
+}
+
 /*-------------------------------------------------------------------------------------
     Contact Page
 ---------------------------------------------------------------------------------------*/
+
+
 
 .contact-area {
     padding: 100px 0;

@@ -11,6 +11,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
     <!--bootstrap css-->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css">
     <!--owl carousel css-->
     <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
     <!--magnific popup css-->
@@ -25,6 +30,30 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!--responsive css-->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <style>
+        /* Adjust the width of the main search field */
+
+        .dataTables_filter {
+            -ms-flex-preferred-size: 20%;
+            flex-basis: 20%;
+            position: relative;
+        }
+
+        .dataTables_filter input {
+            /* background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #202020; */
+            font-family: 'Rubik', sans-serif;
+            padding-left: 20px;
+            height: 40px;
+            width: 70%;
+            border-radius: 10px;
+        }
+
+        .dataTables_filter input:focus {
+            background-color: transparent;
+        }
+    </style>
 </head>
 
 <body>
@@ -118,7 +147,7 @@
                                     <ul class="sub-menu">
                                         <li><a href="webinars.html">DECISION</a></li>
                                         <li><a href="school.html">ANNUAIRE EN LIGNE</a></li>
-                                        <li><a href="directions.html">LISTE DES DE DR ET DD</a></li>
+                                        <li><a href="#" class="active">LISTE DES DE DR ET DD</a></li>
                                     </ul>
                                 </li>
 
@@ -156,10 +185,10 @@
         <div class="container">
             <div class="row">
                 <!--start heading-->
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-12">
                     <div class="banner-content text-center">
-                        <h1>Creation de compte</h1>
-
+                        <h1>Annuaire</h1>
+                        <p><a href="index-2.html">Accueil</a> <span> > </span><a href="">Annuaire</a> </p>
                     </div>
                 </div>
                 <!--end heading-->
@@ -167,145 +196,180 @@
         </div>
     </section>
     <!--end hero area-->
-    <!--end hero area-->
-    <!--start register area-->
-    <section class="register-area two">
-        <div class="container registration-form-wrap">
-            <div class="text-center">
-                <h3 class="">POUR ACCÉDER À NOS SERVICES</h3>
+    <!--start contact area-->
+    <div class="container mt-5 pills">
+        <!-- Pills Navigation -->
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#content1">REPERTOIRE DIRECTIONS REGIONALES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#content2">REPERTOIRE DIRECTIONS DEPARTEMENTALES</a>
+            </li>
 
-            </div>
-            <div class="row">
+        </ul>
+    </div>
+
+    <!-- Pills Content -->
+    <div class="tab-content mt-3">
+        <div id="content1" class="tab-pane fade show active">
+            <section class="school-area">
+                <div class="container">
 
 
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Nom</label>
-                        <input type="text" placeholder="Nom" class="form-control">
+                    <div class="text-center">
+                        <h2 class="">LISTE DES DR</h2>
                     </div>
-                    <!-- <div class="form-group">
-                        <label>Last Name</label>
-                        <input type="text" placeholder="Last Name" class="form-control">
-                    </div> -->
-                    <!-- <div class="form-group">
-                        <label>User Name</label>
-                        <input type="text" placeholder="User Name" class="form-control">
-                    </div> -->
-                    <!-- <div class="form-group">
-                        <label>E-Mail</label>
-                        <input type="text" placeholder="E-Mail" class="form-control">
-                    </div> -->
-                    <!-- <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" placeholder="Password" class="form-control">
-                    </div> -->
-                    <!-- <div class="form-group">
-                        <label>Password confirmation</label>
-                        <input type="password" placeholder="Password Confirmation" class="form-control">
-                    </div> -->
 
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Prénom</label>
-                        <input type="text" placeholder="Prénom" class="form-control">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Date de naissance</label>
-                        <input type="date" placeholder="Date de naissance" class="form-control">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Lieu de naissance</label>
-                        <input type="text" placeholder="Lieu de naissance" class="form-control">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Sexe</label>
-                        <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Masculin</option>
-                            <option>Féminin</option>
-                          
-                            
-                        </select>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>E-Mail</label>
-                        <input type="text" placeholder="E-Mail" class="form-control">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Téléphone</label>
-                        <input type="text" placeholder="Téléphone" class="form-control">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Lieu d'habitation</label>
-                        <input type="text" placeholder="Lieu d'habitation" class="form-control">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Nationalité</label>
-                        <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Ivoirienne</option>
-                            <option>...</option>
-                            <option>..</option>
-                            <option>.</option>
-                            
-                        </select>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Type</label>
-                        <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Autorisation d'exercer</option>
-                            <option>Promoteur Enseignant</option>
-                            <option>Promoteur non Enseignant</option>
-                            <option>Confessions Réligieuses</option>
-                            
-                        </select>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Mot de passe</label>
-                        <input type="password" placeholder="Mot de passe" class="form-control">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="form-group">
-                        <label>Confirmer votre mot de passe</label>
-                        <input type="password" placeholder="Confirmer votre mot de passe" class="form-control">
-                    </div>
-                </div>
+                    <table id="dataTable" class="table table-bordered table-hover dt-responsive"
+                        style="font-size: 17px;" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>N°</th>
+                                <th>Code</th>
+                                <th>Nom de l'Etablissement</th>
+                                <th>DIRECTIONS DEPARTEMENTALES</th>
+                                <th>Contact</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>13</td>
+                                <td>AA ADZOPE</td>
+                                <td>ADZOPE</td>
+                                <td>07 07 90 40 69 / 07 07 90 40 69</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>113</td>
+                                <td>CFPT Tengrela</td>
+                                <td>BOUNDIALI</td>
+                                <td>01 01 52 41 98 / 07 07 15 43 99 / 01 01 52 41 98</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>1333</td>
+                                <td>LPC Cocody</td>
+                                <td>ABIDJAN NORD</td>
+                                <td>27 21 56 43 81 / 27 21 36 43 69 / 05 05 75 62 86</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>987</td>
+                                <td>LPC Daloa</td>
+                                <td>Daloa</td>
+                                <td>27 32 78 16 62 / 27 32 78 14 89</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>54</td>
+                                <td>LPC1 Treichville</td>
+                                <td>ABIDJAN SUD</td>
+                                <td>27 21 56 43 81 / 27 21 36 43 69</td>
+                            </tr>
 
 
 
+                        </tbody>
+                        <!-- <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </tfoot> -->
+                    </table>
 
-
-            </div>
-            <div class="col-lg-4 offset-lg-4 col-md-12 offset-md-12">
-
-                <div class="register-btn">
-                    <a href="#">CRÉEZ VOTRE COMPTE</a>
                 </div>
-
-            </div>
+            </section>
         </div>
-    </section>
-    <!--end register area-->
+        <div id="content2" class="tab-pane fade">
+            <section class="school-area">
+                <div class="container">
+
+
+                    <div class="text-center">
+                        <h2 class="">LISTE DES DD</h2>
+                    </div>
+
+                    <table id="dataTable2" class="table table-bordered table-hover dt-responsive"
+                        style="font-size: 17px;" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>N°</th>
+                                <th>Code</th>
+                                <th>Nom de l'Etablissement</th>
+                                <th>DIRECTIONS DEPARTEMENTALES</th>
+                                <th>Contact</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>13</td>
+                                <td>AA ADZOPE</td>
+                                <td>ADZOPE</td>
+                                <td>07 07 90 40 69 / 07 07 90 40 69</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>113</td>
+                                <td>CFPT Tengrela</td>
+                                <td>BOUNDIALI</td>
+                                <td>01 01 52 41 98 / 07 07 15 43 99 / 01 01 52 41 98</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>1333</td>
+                                <td>LPC Cocody</td>
+                                <td>ABIDJAN NORD</td>
+                                <td>27 21 56 43 81 / 27 21 36 43 69 / 05 05 75 62 86</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>987</td>
+                                <td>LPC Daloa</td>
+                                <td>Daloa</td>
+                                <td>27 32 78 16 62 / 27 32 78 14 89</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>54</td>
+                                <td>LPC1 Treichville</td>
+                                <td>ABIDJAN SUD</td>
+                                <td>27 21 56 43 81 / 27 21 36 43 69</td>
+                            </tr>
+
+
+
+                        </tbody>
+                        <!-- <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                </tr>
+                            </tfoot> -->
+                    </table>
+
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--end contact area-->
     <!--start footer-area-->
     <footer class="footer-area">
         <!--start footer top area-->
@@ -412,6 +476,80 @@
     <!--end footer-->
     <!--jQuery js-->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#dataTable').dataTable(
+
+                {
+
+                    responsive: true,
+                    iDisplayLength: 25,
+                    language: {
+                        processing: "Traitement en cours...",
+                        search: "Rechercher&nbsp;:",
+                        lengthMenu: "Afficher _MENU_ &eacute;l&eacute;ments",
+                        info: "Affichage de l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+                        infoEmpty: "Affichage de l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+                        infoFiltered: "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
+                        infoPostFix: "",
+                        loadingRecords: "Chargement en cours...",
+                        zeroRecords: "Aucun &eacute;l&eacute;ment &agrave; afficher",
+                        emptyTable: "Aucune donnÃ©e disponible dans le tableau",
+                        paginate: {
+                            first: "Premier",
+                            previous: "Pr&eacute;c&eacute;dent",
+                            next: "Suivant",
+                            last: "Dernier"
+                        },
+                        aria: {
+                            sortAscending: ": activer pour trier la colonne par ordre croissant",
+                            sortDescending: ": activer pour trier la colonne par ordre dÃ©croissant"
+                        }
+                    }
+                }
+
+            );
+
+            $('#dataTable2').dataTable(
+
+                {
+
+                    responsive: true,
+                    iDisplayLength: 25,
+                    language: {
+                        processing: "Traitement en cours...",
+                        search: "Rechercher&nbsp;:",
+                        lengthMenu: "Afficher _MENU_ &eacute;l&eacute;ments",
+                        info: "Affichage de l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+                        infoEmpty: "Affichage de l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+                        infoFiltered: "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
+                        infoPostFix: "",
+                        loadingRecords: "Chargement en cours...",
+                        zeroRecords: "Aucun &eacute;l&eacute;ment &agrave; afficher",
+                        emptyTable: "Aucune donnÃ©e disponible dans le tableau",
+                        paginate: {
+                            first: "Premier",
+                            previous: "Pr&eacute;c&eacute;dent",
+                            next: "Suivant",
+                            last: "Dernier"
+                        },
+                        aria: {
+                            sortAscending: ": activer pour trier la colonne par ordre croissant",
+                            sortDescending: ": activer pour trier la colonne par ordre dÃ©croissant"
+                        }
+                    }
+                }
+
+            );
+        });
+    </script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js"></script>
+
+
+
     <!--proper js-->
     <script src="assets/js/popper.min.js"></script>
     <!--bootstrap js-->

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="">
@@ -12,6 +11,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
     <!--bootstrap css-->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css">
     <!--owl carousel css-->
     <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
     <!--magnific popup css-->
@@ -27,115 +31,34 @@
     <!--responsive css-->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
+    <style>
+        /* Adjust the width of the main search field */
 
-    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
+        .dataTables_filter {
+            -ms-flex-preferred-size: 20%;
+            flex-basis: 20%;
+            position: relative;
+        }
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+        .dataTables_filter input {
+            /* background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #202020; */
+            font-family: 'Rubik', sans-serif;
+            padding-left: 20px;
+            height: 40px;
+            width: 70%;
+            border-radius: 10px;
+        }
 
+        .dataTables_filter input:focus {
+            background-color: transparent;
+        }
+    </style>
 </head>
-<style>
-
-    .portfolio-menu {
-        text-align: center;
-    }
-
-    .portfolio-menu ul li {
-        display: inline-block;
-        margin: 0;
-        list-style: none;
-        padding: 10px 15px;
-        cursor: pointer;
-        -webkit-transition: all 05s ease;
-        -moz-transition: all 05s ease;
-        -ms-transition: all 05s ease;
-        -o-transition: all 05s ease;
-        transition: all .5s ease;
-    }
-
-    .portfolio-item img {
-        /*width:100%;*/
-        border-radius: 10px;
-        -webkit-transition: 0.5s;
-    transition: 0.5s;
-
-    }
-
-
-    .portfolio-item img:hover {
-    -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.10);
-    box-shadow: 0 10 40px rgba(0, 0, 0, 0.10);
-    /* background-image: linear-gradient(60deg, #040404b3 50%, #05013340 100%); */
-    transform: translateY(-5px);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.10);
-}
-
-    .portfolio-item .item {
-        /*width:303px;*/
-        float: left;
-        margin-bottom: 10px;
-    }
-
-    .portfolio-card {
-	position: relative;
-}
-
-.portfolio-card img {
-	width: 100%;
-}
-
-.portfolio-card-meta {
-	position: absolute;
-	z-index: 1;
-	bottom: 10px;
-	transform: scale(1, 0);
-	transform-origin: top;
-	transition: transform 500ms;
-}
-
-.portfolio-card:hover .portfolio-card-meta {
-	transform: scale(1.0);
-}
-
-.portfolio-card-text {
-	display: inline-block;
-
-	padding: 5px 30px;
-	background-color: #f3880b;
-}
-
-.portfolio-card-text a {
-	font-size: 16px;
-	color: #000;
-	font-weight: 800;
-}
-.portfolio-card-text a:hover {
-	color: #ffffff;
-
-}
-
-.portfolio-card-title {
-	color: var(--thm-black);
-	padding: 12px 30px;
-	font-size: 18px;
-	background-color: #ffffff;
-	font-weight: 700;
-}
-
-.portfolio-card-title a {
-	color: inherit;
-}
-
-.portfolio-card-title a:hover {
-	color: #f3880b;
-}
-</style>
 
 <body>
     <!--star preloader-->
-    <!-- <div class="preloader">
+    <div class="preloader">
         <div class="d-table">
             <div class="d-table-cell align-middle">
                 <div class="spinner">
@@ -144,8 +67,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
-    <!--end preloader-->
+    </div>
     <!--end preloader-->
     <div class="sidebar-wrap">
         <div class="sidebar-inner">
@@ -214,17 +136,17 @@
                                     <ul class="sub-menu">
                                         <li><a href="about-us.html">QUI SOMMES-NOUS</a></li>
                                         <li><a href="blog.html">ACTUALITES</a></li>
-                                        <li><a class="active" href="#">MEDIATEQUE</a></li>
+                                        <li><a href="gallery.html">MEDIATEQUE</a></li>
                                         <li><a href="faqs.html">FAQs</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">ACTIVITES</a>
-                                   
+
                                 </li>
                                 <li><a href="webinars.html">DOCUMENTATION</a>
                                     <ul class="sub-menu">
                                         <li><a href="webinars.html">DECISION</a></li>
-                                        <li><a href="school.html">ANNUAIRE EN LIGNE</a></li>
+                                        <li><a href="#" class="active">ANNUAIRE EN LIGNE</a></li>
                                         <li><a href="directions.html">LISTE DES DE DR ET DD</a></li>
                                     </ul>
                                 </li>
@@ -257,15 +179,16 @@
         </div>
 
     </header>
+    <!--end header-->
     <!--start hero area-->
     <section class="page-banner-area">
         <div class="container">
             <div class="row">
                 <!--start heading-->
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-12">
                     <div class="banner-content text-center">
-                        <h1>MEDIATHEQUE</h1>
-                        <p><a href="index-2.html">Accueil</a> <span> > </span>Médiathèque</p>
+                        <h1>Annuaire</h1>
+                        <p><a href="index-2.html">Accueil</a> <span> > </span><a href="">Annuaire</a> </p>
                     </div>
                 </div>
                 <!--end heading-->
@@ -273,85 +196,82 @@
         </div>
     </section>
     <!--end hero area-->
-
-    <section class="revenue-area">
-
+    <!--start contact area-->
+    <section class="school-area">
         <div class="container">
-            <div class="row">
-                <!--start heading-->
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="sec-heading text-center">
 
-                        <h2>Ce que nous faisons de mieux</h2>
-                    </div>
-                </div>
-                <!--end heading-->
-            </div>
- 
-            <div class="portfolio-menu mt-2 mb-4">
-                <ul>
-                    <li class="btn btn-outline-dark active" data-filter="*">Tout</li>
-                    <li class="btn btn-outline-dark" data-filter=".gts">Girls T-shirt</li>
-                    <li class="btn btn-outline-dark" data-filter=".lap">Laptops</li>
-                    <li class="btn btn-outline-dark text" data-filter=".selfie">selfie</li>
-                </ul>
-            </div>
-            <div class="portfolio-item row">
-                <div class="item selfie col-lg-4 col-md-6 col-12">
-                    
-                    <div class="portfolio-card">
-						<!-- <img class="img-fluid" src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
-                             class="" alt="img-97" height="300"> -->
-                             <a href="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
-                        class="fancylight popup-btn" data-fancybox-group="light">
-                        <img class="img-fluid"
-                            src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
-                            alt="">
-                    </a>
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="{{'/portfolio-details/'.$portfolio->id}}">Bonjour Tout le monde</a></div><!-- portfolio-card-text -->
-							<div class="portfolio-card-title"><a href="{{'/portfolio-details/'.$portfolio->id}}">Learn Webs Applications Development from Experts</a></div><!-- portfolio-card-title -->
-						</div>
-					</div>
-                </div>
-                <div class="item gts col-lg-4 col-md-6 col-12">
-                   
-                    <div class="portfolio-card">
-						<!-- <img class="img-fluid" src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
-                             class="" alt="img-97" height="300"> -->
-                             <a href="https://image.freepik.com/free-photo/pretty-girl-near-car_1157-16962.jpg"
-                        class="fancylight popup-btn" data-fancybox-group="light">
-                        <img class="img-fluid"
-                            src="https://image.freepik.com/free-photo/pretty-girl-near-car_1157-16962.jpg"
-                            alt="">
-                    </a>
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="{{'/portfolio-details/'.$portfolio->id}}">Bonjour Tout le monde</a></div><!-- portfolio-card-text -->
-							<div class="portfolio-card-title"><a href="{{'/portfolio-details/'.$portfolio->id}}">Learn Webs Applications Development from Experts</a></div><!-- portfolio-card-title -->
-						</div>
-					</div>
-                </div>
 
-                <div class="item lap col-lg-4 col-md-6 col-12">
-                   
-                    <div class="portfolio-card">
-						<!-- <img class="img-fluid" src="https://image.freepik.com/free-photo/stylish-young-woman-with-bags-taking-selfie_23-2147962203.jpg"
-                             class="" alt="img-97" height="300"> -->
-                             <a href="https://image.freepik.com/free-psd/set-digital-devices-screen-mockup_53876-76507.jpg"
-                        class="fancylight popup-btn" data-fancybox-group="light">
-                        <img class="img-fluid"
-                            src="https://image.freepik.com/free-psd/set-digital-devices-screen-mockup_53876-76507.jpg"
-                            alt="">
-                    </a>
-						<div class="portfolio-card-meta">
-							<div class="portfolio-card-text"><a href="{{'/portfolio-details/'.$portfolio->id}}">Bonjour Tout le monde</a></div><!-- portfolio-card-text -->
-							<div class="portfolio-card-title"><a href="{{'/portfolio-details/'.$portfolio->id}}">Learn Webs Applications Development from Experts</a></div><!-- portfolio-card-title -->
-						</div>
-					</div>
-                </div>
+            <div class="text-center">
+                <h2 class="">Liste des Etablissements</h2>
             </div>
+
+            <table id="example" class="table table-bordered table-hover dt-responsive" style="font-size: 17px;"
+                cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Code</th>
+                        <th>Nom de l'Etablissement</th>
+                        <th>DIRECTIONS DEPARTEMENTALES</th>
+                        <th>Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>13</td>
+                        <td>AA ADZOPE</td>
+                        <td>ADZOPE</td>
+                        <td>07 07 90 40 69 / 07 07 90 40 69</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>113</td>
+                        <td>CFPT Tengrela</td>
+                        <td>BOUNDIALI</td>
+                        <td>01 01 52 41 98 / 07 07 15 43 99 / 01 01 52 41 98</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>1333</td>
+                        <td>LPC Cocody</td>
+                        <td>ABIDJAN NORD</td>
+                        <td>27 21 56 43 81 / 27 21 36 43 69 / 05 05 75 62 86</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>987</td>
+                        <td>LPC Daloa</td>
+                        <td>Daloa</td>
+                        <td>27 32 78 16 62 / 27 32 78 14 89</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>54</td>
+                        <td>LPC1 Treichville</td>
+                        <td>ABIDJAN SUD</td>
+                        <td>27 21 56 43 81 / 27 21 36 43 69</td>
+                    </tr>
+
+
+
+                </tbody>
+                <!-- <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                    </tr>
+                </tfoot> -->
+            </table>
+
         </div>
     </section>
+
+    <!--end contact area-->
     <!--start footer-area-->
     <footer class="footer-area">
         <!--start footer top area-->
@@ -456,37 +376,70 @@
         <!--end footer bottom-->
     </footer>
     <!--end footer-->
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
-
+    <!--jQuery js-->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script>
-        // $('.portfolio-item').isotope({
-        //  	itemSelector: '.item',
-        //  	layoutMode: 'fitRows'
-        //  });
-        $('.portfolio-menu ul li').click(function () {
-            $('.portfolio-menu ul li').removeClass('active');
-            $(this).addClass('active');
-
-            var selector = $(this).attr('data-filter');
-            $('.portfolio-item').isotope({
-                filter: selector
-            });
-            return false;
-        });
         $(document).ready(function () {
-            var popup_btn = $('.popup-btn');
-            popup_btn.magnificPopup({
-                type: 'image',
-                gallery: {
-                    enabled: true
+
+
+
+            $('#example').dataTable(
+
+                {
+
+                    responsive: true,
+                    iDisplayLength: 25,
+                    language: {
+                        processing: "Traitement en cours...",
+                        search: "Rechercher&nbsp;:",
+                        lengthMenu: "Afficher _MENU_ &eacute;l&eacute;ments",
+                        info: "Affichage de l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+                        infoEmpty: "Affichage de l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+                        infoFiltered: "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
+                        infoPostFix: "",
+                        loadingRecords: "Chargement en cours...",
+                        zeroRecords: "Aucun &eacute;l&eacute;ment &agrave; afficher",
+                        emptyTable: "Aucune donnÃ©e disponible dans le tableau",
+                        paginate: {
+                            first: "Premier",
+                            previous: "Pr&eacute;c&eacute;dent",
+                            next: "Suivant",
+                            last: "Dernier"
+                        },
+                        aria: {
+                            sortAscending: ": activer pour trier la colonne par ordre croissant",
+                            sortDescending: ": activer pour trier la colonne par ordre dÃ©croissant"
+                        }
+                    }
                 }
-            });
+
+            );
         });
     </script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js"></script>
+
+
+
+    <!--proper js-->
+    <script src="assets/js/popper.min.js"></script>
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--mainmenu js-->
+    <script src="assets/js/meanmenu.min.js"></script>
+    <!--counterup js-->
+    <script src="assets/js/counterup.min.js"></script>
+    <!--waypoints js-->
+    <script src="assets/js/waypoints.js"></script>
+    <!--magnic popup js-->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!--owl carousel js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--syotimer js-->
+    <script src="assets/js/syotimer.min.js"></script>
+    <!--main js-->
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
