@@ -151,7 +151,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 14px 30px;
     border-radius: 4px;
     margin-top: 50px
@@ -247,7 +247,7 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 .header-top-area {
-    background-color: #F3880B;
+    background-color: #193579;
     overflow: hidden;
     padding: 15px 0;
 }
@@ -326,7 +326,7 @@ p {
 }
 
 .header-top-social li a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .header-btm-area {
@@ -351,7 +351,7 @@ p {
 }
 
 .site-logo img {
-    max-width: 160px;
+    max-width: 200px;
 }
 
 .main-menu-area {
@@ -384,11 +384,11 @@ p {
 }
 
 .main-menu-area ul li a.active {
-    color: #F3880B;
+    color: #193579;
 }
 
 .main-menu-area ul li a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .main-menu-area .sub-menu {
@@ -405,7 +405,7 @@ p {
     transition: 0.5s;
     opacity: 0;
     visibility: hidden;
-    border-top: 2px solid #F3880B;
+    border-top: 2px solid #193579;
 }
 
 .main-menu-area .sub-menu li {
@@ -433,14 +433,14 @@ p {
 }
 
 .header-cart a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .header-cart a span {
     position: absolute;
     right: -15px;
     top: -6px;
-    background-color: #F3880B;
+    background-color: #193579;
     font-family: 'Rubik';
     color: #fff;
     border-radius: 50%;
@@ -453,7 +453,7 @@ p {
 }
 
 .header-log-reg ul {
-    background-color: #F3880B;
+    background-color: #193579;
     border-radius: 4px;
     display: inline-block;
     padding: 5px 20px;
@@ -711,7 +711,7 @@ p {
 }
 
 .caption-content h4 {
-    color: #F3880B;
+    color: #193579;
     text-transform: uppercase;
     font-size: 20px;
     line-height: 30px;
@@ -743,7 +743,7 @@ p {
 
 .caption-content li a {
     display: block;
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
@@ -754,17 +754,17 @@ p {
 }
 
 .caption-content li a:hover {
-    color: #F3880B;
+    color: #193579;
     background-color: #fff;
 }
 
 .caption-content li .btn-bg {
     background-color: #fff;
-    color: #F3880B;
+    color: #193579;
 }
 
 .caption-content li .btn-bg:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -824,7 +824,7 @@ p {
     height: 50px;
     padding: 0 20px;
     border-radius: 4px;
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
     font-size: 20px;
     margin-right: 5px;
@@ -873,7 +873,7 @@ p {
     line-height: 26px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #F3880B;
+    color: #193579;
     letter-spacing: 1px;
 }
 
@@ -918,7 +918,7 @@ p {
 }
 
 .category-single h4 a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .category-single.two {
@@ -970,7 +970,7 @@ p {
 }
 
 .category-single.four p a {
-    color: #F3880B;
+    color: #193579;
 }
 
 .category-single.four p a:hover {
@@ -1015,7 +1015,7 @@ p {
 }
 
 .choice-single p {
-    color: #F3880B;
+    color: #193579;
     text-align: center;
 }
 
@@ -1039,7 +1039,7 @@ p {
     top: 7px;
     left: 5px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 4px 15px;
     font-size: 12px;
     line-height: 22px;
@@ -1072,7 +1072,7 @@ p {
     height: 30px;
     top: 6px;
     right: 19px;
-    color: #F3880B;
+    color: #193579;
     background-color: transparent;
 }
 
@@ -1156,7 +1156,7 @@ p {
     top: 15px;
     left: 15px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 4px 15px;
     font-size: 12px;
     line-height: 22px;
@@ -1186,7 +1186,7 @@ p {
 }
 
 .course-price.four span {
-    color: #F3880B;
+    color: #193579;
     font-size: 16px;
     font-weight: 500;
     float: left;
@@ -1244,7 +1244,7 @@ p {
 }
 
 .course-cart i {
-    color: #F3880B;
+    color: #193579;
 }
 
 .course-cart a {
@@ -1254,7 +1254,7 @@ p {
 }
 
 .course-cart a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .course-pagination li {
@@ -1276,7 +1276,7 @@ p {
 
 .course-pagination li span,
 .course-pagination li a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -1293,7 +1293,7 @@ p {
 }
 
 .course-carousel.owl-carousel .owl-nav>div:hover {
-    color: #F3880B
+    color: #193579
 }
 
 .course-carousel.owl-carousel .owl-nav .owl-next {
@@ -1349,7 +1349,7 @@ p {
     line-height: 26px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #F3880B;
+    color: #193579;
     letter-spacing: 1px;
 }
 
@@ -1410,7 +1410,7 @@ p {
     line-height: 26px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #F3880B;
+    color: #193579;
     letter-spacing: 1px;
 }
 
@@ -1425,11 +1425,11 @@ p {
 .call-to-action-cont .btn-default a {
     margin-top: 20px;
     background-color: #fff;
-    color: #F3880B;
+    color: #193579;
 }
 
 .call-to-action-cont .btn-default a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -1483,7 +1483,7 @@ p {
 }
 
 .course-price {
-    color: #F3880B;
+    color: #193579;
     font-size: 24px;
     font-weight: 700;
 }
@@ -1496,7 +1496,7 @@ p {
 }
 
 .course-title a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .star-rating-group {
@@ -1543,7 +1543,7 @@ p {
     position: absolute;
     top: 15px;
     left: 15px;
-    color: #F3880B;
+    color: #193579;
     background-color: #fff;
     padding: 4px 15px;
     font-size: 12px;
@@ -1629,7 +1629,7 @@ p {
 }
 
 .discount-cont h4 {
-    color: #F3880B;
+    color: #193579;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1675,12 +1675,12 @@ p {
 
 .discount-cont .btn-default a {
     background-color: #fff;
-    color: #F3880B;
+    color: #193579;
     margin-top: 10px
 }
 
 .discount-cont .btn-default a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff
 }
 
@@ -1731,7 +1731,7 @@ p {
 }
 
 .syotimer-cell__value {
-    color: #F3880B;
+    color: #193579;
 }
 
 .discount-cont.three .syotimer__body>div {
@@ -1748,7 +1748,7 @@ p {
 }
 
 .discount-cont.three .btn-default a {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -1807,7 +1807,7 @@ p {
 }
 
 .webinar-content h3 a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .webinar-meta li {
@@ -1816,7 +1816,7 @@ p {
 }
 
 .webinar-meta li i {
-    color: #F3880B;
+    color: #193579;
     margin-right: 5px;
 }
 
@@ -1836,8 +1836,8 @@ p {
 .webinar-btn a {
     font-size: 15px;
     line-height: 25px;
-    color: #F3880B;
-    border: 1px solid #F3880B;
+    color: #193579;
+    border: 1px solid #193579;
     border-radius: 4px;
     padding: 5px 15px;
     font-family: 'Rubik', sans-serif;
@@ -1847,7 +1847,7 @@ p {
 
 .webinar-btn a:hover {
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
 }
 
 .webinar-area.two {
@@ -1946,7 +1946,7 @@ p {
 }
 
 .webinar-single-desc li i {
-    color: #F3880B;
+    color: #193579;
     padding-right: 8px;
 }
 
@@ -2055,13 +2055,13 @@ p {
     line-height: 80px;
     padding: 0 28px;
     background-color: #fff;
-    color: #F3880B;
+    color: #193579;
     position: relative;
     border-radius: 4px;
 }
 
 .video-player a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -2209,7 +2209,7 @@ p {
 }
 
 .counter-single h2 {
-    color: #F3880B;
+    color: #193579;
     font-size: 50px;
     font-weight: 700;
 }
@@ -2221,11 +2221,11 @@ p {
 
 .video-player.two a {
     background-color: #fff;
-    color: #F3880B;
+    color: #193579;
 }
 
 .video-player.two a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -2236,7 +2236,7 @@ p {
     top: -5px;
     height: 90px;
     width: 90px;
-    border: 3px solid #F3880B;
+    border: 3px solid #193579;
     border-radius: 4px;
     -webkit-animation: icon-bubble 1s infinite forwards linear 0.5s;
     animation: icon-bubble 1s infinite forwards linear 0.5s;
@@ -2249,7 +2249,7 @@ p {
     top: -5px;
     height: 90px;
     width: 90px;
-    border: 3px solid #F3880B;
+    border: 3px solid #193579;
     border-radius: 4px;
     -webkit-animation: icon-bubble 1s infinite forwards linear;
     animation: icon-bubble 1s infinite forwards linear;
@@ -2309,13 +2309,13 @@ p {
     line-height: 80px;
     padding: 0 28px;
     background-color: #fff;
-    color: #F3880B;
+    color: #193579;
     position: relative;
     border-radius: 4px;
 }
 
 .video-player a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -2463,7 +2463,7 @@ p {
 }
 
 .counter-single h2 {
-    color: #F3880B;
+    color: #193579;
     font-size: 50px;
     font-weight: 700;
 }
@@ -2475,11 +2475,11 @@ p {
 
 .video-player.two a {
     background-color: #fff;
-    color: #F3880B;
+    color: #193579;
 }
 
 .video-player.two a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -2490,7 +2490,7 @@ p {
     top: -5px;
     height: 90px;
     width: 90px;
-    border: 3px solid #F3880B;
+    border: 3px solid #193579;
     border-radius: 4px;
     -webkit-animation: icon-bubble 1s infinite forwards linear 0.5s;
     animation: icon-bubble 1s infinite forwards linear 0.5s;
@@ -2503,7 +2503,7 @@ p {
     top: -5px;
     height: 90px;
     width: 90px;
-    border: 3px solid #F3880B;
+    border: 3px solid #193579;
     border-radius: 4px;
     -webkit-animation: icon-bubble 1s infinite forwards linear;
     animation: icon-bubble 1s infinite forwards linear;
@@ -2624,7 +2624,7 @@ p {
 .pricing-table button {
     border: 0;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 14px 30px;
     border-radius: 4px;
     font-size: 16px;
@@ -2678,7 +2678,7 @@ p {
     content: '\f067';
     font-family: 'fontawesome';
     position: absolute;
-    color: #F3880B;
+    color: #193579;
     font-size: 12px;
     right: 15px
 }
@@ -2699,7 +2699,7 @@ p {
 }
 
 .card-header a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .card-body {
@@ -2796,7 +2796,7 @@ p {
 }
 
 .testi-quote {
-    color: #F3880B;
+    color: #193579;
     font-size: 40px;
     display: inline-block;
     margin-bottom: 15px;
@@ -2876,7 +2876,7 @@ p {
 }
 
 .testi-carousel.owl-carousel .owl-dot.active {
-    background-color: #F3880B;
+    background-color: #193579;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -2884,7 +2884,7 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 .newsletter-wrap {
-    background-color: #F3880B;
+    background-color: #193579;
     background-image: url(../images/newletter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -2921,7 +2921,7 @@ p {
     right: 0;
     border: 0;
     height: 55px;
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
@@ -2968,7 +2968,7 @@ p {
 }
 
 .why-choose-btn a {
-    background-color: #F3880B;
+    background-color: #193579;
     border-radius: 4px;
     color: #fff;
     font-size: 16px;
@@ -3088,7 +3088,7 @@ p {
 .steps-label {
     padding: 7px 10px;
     color: #fff;
-    background: #F3880B;
+    background: #193579;
     font-family: "Rubik", Sans-serif;
     font-size: 12px;
     position: absolute;
@@ -3172,7 +3172,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 14px 30px;
     /* margin-left: 50%; */
     border-radius: 4px;
@@ -3307,7 +3307,7 @@ p {
 
 .login-btn a {
     display: inline-block;
-    background-color: #F3880B;
+    background-color: #193579;
     width: 100%;
     padding: 15px 0 13px;
     border-radius: 6px;
@@ -3331,7 +3331,7 @@ p {
 
 .new-registration a {
     display: inline-block;
-    color: #F3880B;
+    color: #193579;
     font-weight: 500;
     margin-left: 10px;
 }
@@ -3389,7 +3389,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 14px 30px;
     border-radius: 4px;
 }
@@ -3415,7 +3415,7 @@ p {
 }
 
 .icon i {
-    color: #F3880B;
+    color: #193579;
     font-size: 25px;
 }
 
@@ -3479,7 +3479,7 @@ p {
 }
 
 .contact-btn button {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
     border-radius: 4px;
     padding: 14px 30px;
@@ -3542,7 +3542,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #F3880B;
+    background-color: #193579;
     width: 65%;
     margin: 0 auto;
     padding: 10px 0;
@@ -3623,7 +3623,7 @@ p {
 }
 
 .blog-post-content h3 a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .post-meta {
@@ -3641,7 +3641,7 @@ p {
 
 .post-meta li a i {
     font-size: 15px;
-    color: #F3880B;
+    color: #193579;
 }
 
 .post-meta span {
@@ -3656,7 +3656,7 @@ p {
 }
 
 .post-meta span:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .blog-area.two {
@@ -3692,7 +3692,7 @@ p {
     height: 55px;
     width: 60px;
     border: 0;
-    background-color: #F3880B;
+    background-color: #193579;
     font-size: 20px;
     padding: 0 20px;
     border-radius: 0 5px 5px 0;
@@ -3751,7 +3751,7 @@ p {
 }
 
 .widget-list li i {
-    color: #F3880B;
+    color: #193579;
     padding-right: 5px;
 }
 
@@ -3760,7 +3760,7 @@ p {
 }
 
 .widget-list li a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .all-posts-wrap {
@@ -3788,7 +3788,7 @@ p {
 .blog-posts-meta ul li i {
     margin-right: 6px;
     font-size: 16px;
-    color: #F3880B;
+    color: #193579;
 }
 
 .blog-posts-meta ul li {
@@ -3805,7 +3805,7 @@ p {
 }
 
 .blog-posts-meta ul li a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .blog-posts h3 a {
@@ -3816,7 +3816,7 @@ p {
 }
 
 .blog-posts h3 a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .blog-area.two p {
@@ -3838,7 +3838,7 @@ p {
     text-transform: uppercase;
     line-height: 26px;
     letter-spacing: 1px;
-    background-color: #F3880B;
+    background-color: #193579;
     border-radius: 4px;
     padding: 14px 30px;
     color: #fff;
@@ -3874,8 +3874,8 @@ p {
 
 .blog-pagination li a:hover,
 .blog-pagination li span {
-    border-color: #F3880B;
-    background-color: #F3880B;
+    border-color: #193579;
+    background-color: #193579;
     color: #fff;
 }
 
@@ -3910,7 +3910,7 @@ p {
 }
 
 .block-quote h6 {
-    color: #F3880B;
+    color: #193579;
     font-size: 18px;
     font-weight: 700;
 }
@@ -3945,7 +3945,7 @@ p {
 
 .post-tag a {
     display: inline-block;
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
     font-size: 13px;
     padding: 0px 12px;
@@ -3967,7 +3967,7 @@ p {
 
 .entry-footer ul li a {
     display: inline-block;
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff;
     font-size: 13px;
     padding: 6px 12px;
@@ -4128,7 +4128,7 @@ p {
     line-height: 38px;
     margin: 0 3px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     border-radius: 4px;
 }
 
@@ -4146,7 +4146,7 @@ p {
 }
 
 .contact-info li i {
-    color: #F3880B;
+    color: #193579;
     font-size: 14px;
     padding-right: 5px;
 }
@@ -4158,7 +4158,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 12px 30px;
     border-radius: 4px;
 }
@@ -4216,7 +4216,7 @@ p {
 }
 
 .progress-bar {
-    background-color: #F3880B;
+    background-color: #193579;
 }
 
 .experience {
@@ -4326,7 +4326,7 @@ p {
 }
 
 .course-categories li a:hover {
-    background-color: #F3880B;
+    background-color: #193579;
     color: #fff
 }
 
@@ -4336,8 +4336,8 @@ p {
 
 .course-content-tab .nav-link.active {
     border: 0;
-    border-bottom: 2px solid #F3880B;
-    color: #F3880B
+    border-bottom: 2px solid #193579;
+    color: #193579
 }
 
 .course-content-tab .nav-tabs .nav-link:focus,
@@ -4347,7 +4347,7 @@ p {
 
 .course-content-tab .nav-tabs .nav-link.active:focus,
 .course-content-tab .nav-tabs .nav-link.active:hover {
-    border-bottom-color: #F3880B;
+    border-bottom-color: #193579;
 }
 
 
@@ -4381,7 +4381,7 @@ p {
 }
 
 .course-content-list li i {
-    color: #F3880B;
+    color: #193579;
     margin-right: 5px
 }
 
@@ -4483,12 +4483,12 @@ p {
 
 .course-curriculum .card-header.active a,
 .course-curriculum .card-header a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .course-curriculum h3,
 .review-contents h3 {
-    color: #F3880B;
+    color: #193579;
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -4584,7 +4584,7 @@ p {
 }
 
 .course-widget li i {
-    color: #F3880B;
+    color: #193579;
     margin-right: 4px;
 }
 
@@ -4617,7 +4617,7 @@ p {
 }
 
 .course-enroll-btn a {
-    background-color: #F3880B;
+    background-color: #193579;
     padding: 14px 0;
     display: block;
     border-radius: 8px;
@@ -4677,10 +4677,10 @@ p {
 }
 
 .nav-pills li a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 .nav-pills .nav-link.active{
-    background-color: #F3880B;
+    background-color: #193579;
 }
 
 /*-------------------------------------------------------------------------------------
@@ -4753,7 +4753,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #F3880B;
+    background-color: #193579;
     border-radius: 4px;
 }
 
@@ -4794,11 +4794,11 @@ p {
 }
 
 .footer-widget li a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .footer-widget.footer-cat li i {
-    color: #F3880B;
+    color: #193579;
     padding-right: 5px
 }
 
@@ -4839,7 +4839,7 @@ p {
 
 .footer-social-icons li a:hover,
 .recent-post-cont a:hover {
-    color: #F3880B;
+    color: #193579;
 }
 
 .footer-post-single {
@@ -4889,7 +4889,7 @@ p {
     position: absolute;
     left: 0;
     top: 6px;
-    color: #F3880B;
+    color: #193579;
 }
 
 .footer-widget.footer-contact li i.fa.fa-map-marker {
@@ -4905,6 +4905,6 @@ p {
 }
 
 .footer-bottom-area {
-    background: #F3880B;
+    background: #193579;
     padding: 20px 0;
 }
